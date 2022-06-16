@@ -1,0 +1,25 @@
+.pending {
+  --color: rgb(255, 255, 155); 
+  --text-color: rgb(31, 147, 196); 
+  --border-color: transparent;
+}
+
+.success {
+  --color: rgb(74, 179, 74);
+  --text-color: rgb(223, 253, 255); 
+  --border-color: rgb(18, 147, 18);
+}
+
+.btn {
+  --btn-color: var(--color, rgb(235, 235, 235));
+  --btn-border-color: var(--border-color, rgb(205, 205, 205));
+  --btn-text-color: var(--text-color, rgb(63, 63, 63));
+
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 3px solid var(--btn-border-color);
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  cursor: pointer;
+}

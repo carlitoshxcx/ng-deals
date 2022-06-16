@@ -1,15 +1,13 @@
 import { NgModule } from '@angular/core';
-
-import { DealDashboardComponent } from './deals/dashboard/dashboard.component';
-import { DealPendingComponent } from './deals/pending/pending.component';
-import { DealSuccessComponent } from './deals/success/success.component';
+import { ComponentsModule } from './components/components.module';
+import { DealsModule } from './feature/deals/deals.module';
 
 @NgModule({
-  imports: [],
-  declarations: [
-    DealDashboardComponent,
-    DealPendingComponent,
-    DealSuccessComponent,
+  imports: [
+    ComponentsModule,
+    DealsModule
   ],
+  declarations: [],
+  exports: []
 })
 export class SharedModule {}
