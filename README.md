@@ -1,9 +1,7 @@
 # Deals APP
 
 <details>
-<summary>
- **Features**
-</summary>
+<summary>Features</summary>
 
 ## Deals
 
